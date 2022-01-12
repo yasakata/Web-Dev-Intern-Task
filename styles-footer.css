@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+    background-color: rgba(220, 220, 220, 0.6);
+    padding: 20px 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.links-item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.links-item
+a {
+    color: rgba(55, 55, 55, 1);
+    font-size: 16px;
+}

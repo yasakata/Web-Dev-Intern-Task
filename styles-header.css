@@ -1,0 +1,102 @@
+/* Desktop screen size: 1920x1766 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(63, 63, 63, 1);
+}
+
+header {
+    position: relative;
+}
+
+.header-cover {
+    width: 100%;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(63, 63, 63, 0.6);
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 1165px;
+    padding: 200px 0;
+}
+
+.email-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.email-field {
+    margin-top: 20px;
+}
+
+.email-field
+input {
+    width: 290px;
+    height: 60px;
+    font-size: 100%;
+    padding-left: 10px;
+    border: 1px solid rgb(225, 213, 213);
+}
+
+.email-btn {
+    margin-top: 10px;
+    width: 290px;
+    height: 60px;
+    background-color: rgba(255, 222, 37, 1);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+/* EFFECT ON EMAIL BTN */
+.email-button
+{
+  margin-top: 30px;
+}
+
+#email-btn:checked ~ .email-btn {
+    background-color: green;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label.email-btn {
+    padding: 20px 29px;
+}
+
+.popup {
+    background-color: green;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
